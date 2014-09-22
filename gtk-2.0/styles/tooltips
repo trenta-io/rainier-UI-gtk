@@ -1,0 +1,40 @@
+style "tooltips"	= "default"
+{
+  xthickness            			= 5
+  ythickness            			= 5
+    bg[NORMAL]	  = @tooltip_bg_color
+    fg[NORMAL]	  = @tooltip_fg_color
+    bg[SELECTED]  = @tooltip_bg_color
+  engine "pixmap"
+	{
+		image
+		{
+			function 		= FLAT_BOX
+                        detail		= "tooltip"
+			recolorable     = TRUE
+			file            = "/Others/tooltip.png"
+			border			= { 2, 2, 2, 2 }
+			stretch 		= TRUE
+		}
+	} 	
+}
+widget "gtk-tooltip*"  			style "tooltips"
+class 		"*GtkTooltips*"		style "tooltips"
+widget_class 	"*Tooltips*"		style "tooltips"
+
+
+style "xfdesktop-icon-view"
+ { 
+    XfdesktopIconView::label-alpha = 0
+    XfdesktopIconView::selected-label-alpha = 170
+
+    base[NORMAL]	  = @bg_color
+    fg[NORMAL]	  = @selected_fg_color
+    base[SELECTED]  = @selected_bg_color
+    fg[SELECTED]  = @selected_fg_color
+	engine "murrine" {
+    textstyle = 1
+    text_shade = 0.1
+}
+}
+widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Rainier
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Rainier
+MetacityTheme=Rainier
+ButtonLayout=:minimize,maximize,close
+IconTheme=Rainier
