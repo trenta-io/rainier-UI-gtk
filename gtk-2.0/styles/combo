@@ -1,0 +1,122 @@
+
+style "combobox"		= "default"
+{
+  base[INSENSITIVE] = shade (1.04, @bg_color)
+  text[INSENSITIVE] = mix (0.5, @base_color, @text_color)
+
+  GtkWidget::wide-separators                    = 0
+  xthickness			= 4
+  ythickness			= 4
+  engine "pixmap"
+  {
+    image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= PRELIGHT
+      file				= "Combo/combo-prelight.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+    image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= NORMAL
+      file				= "Combo/combo-normal.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+
+  image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= ACTIVE
+      file				= "Combo/combo-pressed.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+ image
+    {
+      function			= BOX
+      recolorable		= TRUE
+      state				= INSENSITIVE
+      file				= "Combo/combo-inactive.png"
+      border			= { 5, 5, 5, 5 }
+      stretch			= TRUE
+    }
+      image
+      {
+     	 	function		= ARROW
+      		state			= NORMAL
+      		recolorable		= TRUE
+      		overlay_file		= "Combo/combo-arrow.png"
+      		overlay_border		= { 0, 0, 0, 0 }
+     		overlay_stretch		= FALSE
+     		arrow_direction		= DOWN
+      }
+      image
+      {
+		function		= ARROW
+		state			= PRELIGHT
+		recolorable		= TRUE
+		overlay_file		= "Combo/combo-arrow-prelight.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= DOWN
+     }
+    
+     image
+     {
+		function		= ARROW
+		state			= ACTIVE
+		recolorable		= TRUE
+		overlay_file		= "Combo/combo-arrow-active.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= DOWN
+     }
+
+     image
+     {
+		function		= ARROW
+		state			= INSENSITIVE
+		recolorable		= TRUE
+		overlay_file		= "Combo/combo-arrow-insens.png"
+		overlay_border		= { 0, 0, 0, 0 }
+		overlay_stretch		= FALSE
+		arrow_direction		= DOWN
+     }
+    image
+    {
+       function		= VLINE
+       recolorable		= TRUE
+       file				= "Others/null.png"
+       border			= { 0, 0, 0, 0 }
+       stretch			= TRUE
+    }    
+  }
+}
+style "combobox_button"
+{
+  xthickness = 5
+  ythickness = 5
+}
+style "combobox_separator"
+{
+  xthickness = 0
+  ythickness = 0
+  GtkWidget::wide-separators = 1
+}
+widget_class "*<GtkComboBox>*<GtkButton>"       style "combobox_button"
+widget_class "*<GtkComboBox>*<GtkSeparator>"	style "combobox_separator"
+widget_class "*<GtkComboBox>"                   style "combobox"
+style "combobutton" 
+{
+	text[NORMAL] = @text_color
+	text[PRELIGHT] = shade (0.7, @fg_color)
+	text[ACTIVE] = shade (0.9, @fg_color)
+	text[INSENSITIVE] = mix (0.5, @base_color, @text_color)
+}
+widget_class "*<GtkComboBox>*<GtkCellView>*"   style "combobutton"
