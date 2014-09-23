@@ -517,10 +517,10 @@ GtkComboBox .button {
  *********/
 .entry {
     padding: 6px 8px;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #676a6f;
-    border-radius: 20;
+    border-color: #EEEEEE;
+    border-radius: 5;
     background-color: @theme_base_color;
     background-image: none;
     color: @theme_text_color;
