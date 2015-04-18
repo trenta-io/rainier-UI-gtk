@@ -1,0 +1,31 @@
+rainier-gtk-theme (1.1.1) trusty; urgency=medium
+
+  * Minor Edits
+
+ -- Kenneth Stier (Millhousen Tech) <kenny.stier19@gmail.com>  Fri, 17 Apr 2015 21:48:00 -0400
+
+rainier-gtk-theme (1.1) trusty; urgency=medium
+
+  * Added Rounded Corners of Text Entry Boxes
+  * Added border to text entry boxes, no longer 'invisible'
+
+ -- Kenneth Stier (Millhousen Tech) <kenny.stier19@gmail.com>  Mon, 22 Sep 2014 20:50:00 -0400
+
+rainier-gtk-theme (1.0.2) trusty; urgency=medium
+
+  * Added Crucial Dependency
+
+ -- Kenneth Stier (Millhousen Tech) <kenny.stier19@gmail.com>  Fri, 25 Jul 2014 08:59:00 -0400
+
+rainier-gtk-theme (1.0.1) trusty; urgency=medium
+
+  * Added to PPA
+
+ -- Kenneth Stier (Millhousen Tech) <kenny.stier19@gmail.com>  Fri, 25 Jul 2014 07:58:00 -0400
+
+flattice-theme (1.0~trusty~Noobslab.com) trusty; urgency=high
+
+  * Added to PPA
+
+ -- Umair Riaz <noobslab.com@gmail.com>  Tue, 17 Jun 2014 15:47:08 +0200
+

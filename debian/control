@@ -1,0 +1,13 @@
+Source: rainier-gtk-theme
+Section: gnome
+Priority: extra
+Maintainer: Kenneth Stier (Millhousen Tech) <kenny.stier19@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.3
+Homepage: http://trentaos.org
+
+Package: rainier-gtk-theme
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, gtk2-engines-murrine, gtk2-engines-pixbuf
+Description: Rainier GTK Theme
+	
