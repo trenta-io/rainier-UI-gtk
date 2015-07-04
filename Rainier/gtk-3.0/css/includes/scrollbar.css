@@ -1,0 +1,164 @@
+.scrollbar {
+  background-image: none;
+  border-style: solid;
+  -GtkRange-trough-border: 3;
+  -GtkScrollbar-has-backward-stepper: false;
+  -GtkScrollbar-has-forward-stepper: false;
+  -GtkRange-slider-width: 6;
+  -GtkScrollbar-min-slider-length: 30;
+  -GtkRange-stepper-spacing: 0;
+  -GtkRange-trough-under-steppers: 1;
+}
+
+.scrollbars-junction, /* the small square between scrollbars */
+.scrollbar.trough {
+  background-image: none;
+  background-color: @scrollbar_trough;
+  border-width: 0;
+  border-radius: 0;
+  border-image: none;
+  box-shadow: none;
+}
+
+.scrollbar.button,
+.scrollbar.button:active,
+.scrollbar.button:active:hover,
+.scrollbar.button:insensitive,
+.scrollbar.button:hover:backdrop,
+.scrollbar.button:active:hover:backdrop {
+  border-style: none;
+  border-image: none;
+  border-radius: 0;
+  background-image: none;
+  background-color: transparent;
+}
+
+.scrollbar.button:active,
+.scrollbar.button:active:hover {
+  background-color: mix(@scrollbar_slider, @scrollbar_trough, 0.8);
+}
+
+.scrollbar.button.top:hover {
+  box-shadow: inset 0 -1px mix(@scrollbar_slider, @scrollbar_trough, 0.8);
+}
+
+.scrollbar.button.bottom:hover {
+  box-shadow: inset 0 1px mix(@scrollbar_slider, @scrollbar_trough, 0.8);
+}
+
+.scrollbar.button.right:hover {
+  box-shadow: inset 1px 0 mix(@scrollbar_slider, @scrollbar_trough, 0.8);
+}
+
+.scrollbar.button.left:hover {
+  box-shadow: inset -1px 0 mix(@scrollbar_slider, @scrollbar_trough, 0.8);
+}
+
+.scrollbar.button.top:hover:backdrop,
+.scrollbar.button.bottom:hover:backdrop,
+.scrollbar.button.right:hover:backdrop,
+.scrollbar.button.left:hover:backdrop {
+  box-shadow: none;
+}
+
+.scrollbar.button {
+  color: @scrollbar_slider;
+}
+
+.scrollbar.button:hover {
+  color: @scrollbar_slider_prelight;
+}
+
+.scrollbar.button:insensitive {
+  color: mix(@scrollbar_slider, @scrollbar_trough, 0.6);
+}
+
+.scrollbar.button:active {
+  color: @scrollbar_slider_active;
+}
+
+.scrollbar.button:backdrop {
+  color: @scrollbar_slider_unfocused;
+}
+
+.scrollbar.button:insensitive:backdrop {
+  color: mix(@scrollbar_slider_unfocused, @scrollbar_trough_unfocused, 0.7);
+}
+
+.scrollbar.trough:insensitive {
+  background-color: @scrollbar_trough_insensitive;
+  border-style: solid;
+  border-image: none;
+  border-color: transparent;
+  border-width: 3px;
+}
+
+.scrollbars-junction:backdrop,
+.scrollbar.trough:backdrop {
+  background-image: none;
+  background-color: @scrollbar_trough_unfocused;
+  border-width: 0;
+  border-radius: 0;
+  border-image: none;
+}
+
+.scrollbar.trough:insensitive:backdrop {
+  background-image: none;
+  background-color: mix(@scrollbar_trough_unfocused, @scrollbar_trough_insensitive, 0.5);
+  border-width: 0;
+  border-radius: 0;
+  border-image: none;
+}
+
+.scrollbar.slider {
+  background-image: none;
+  background-color: @scrollbar_slider;
+  border-radius: 20px;
+  border-style: solid;
+  border-image: none;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.scrollbar.slider:hover {
+  transition: all 1000ms linear;
+  background-image: none;
+  background-color: @scrollbar_slider_prelight;
+  border-style: solid;
+  border-image: none;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.scrollbar.slider:prelight:active {
+  background-image: none;
+  background-color: @scrollbar_slider_active;
+  border-style: solid;
+  border-image: none;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.scrollbar.slider:insensitive {
+  background-color: @scrollbar_slider_insensitive;
+  border-style: solid;
+  border-image: none;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.scrollbar.slider:backdrop {
+  background-color: @scrollbar_slider_unfocused;
+  border-style: solid;
+  border-image: none;
+  border-color: transparent;
+  border-width: 0px;
+}
+
+.scrollbar.slider.fine-tune:prelight:active {
+  background-image: none;
+  border-style: solid;
+  border-image: none;
+  border-color: transparent;
+  border-width: 5px;
+}

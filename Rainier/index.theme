@@ -7,5 +7,5 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=Rainier
 MetacityTheme=Rainier
-ButtonLayout=:minimize,maximize,close
+ButtonLayout=close,minimize,maximize:
 IconTheme=Rainier

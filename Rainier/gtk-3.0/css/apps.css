@@ -1,0 +1,350 @@
+/* Copyright 2011-2013 elementary LLC.
+*
+* This file is part of the elementary GTK theme.
+*
+* The elementary GTK theme is free software: you can redistribute it
+* and/or modify it under the terms of the GNU General Public License as
+* published by the Free Software Foundation, either version 3 of the
+* License, or (at your option) any later version.
+*
+* The elementary GTK theme is distributed in the hope that it will be
+* useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+* Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* with the elementary GTK theme. If not, see http://www.gnu.org/licenses/.
+*/
+
+
+
+/*************
+ * Slingshot *
+ ************/
+
+.button.app {
+    border-width: 0;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.app:hover {
+    background-color: alpha (#000, 0.08);
+}
+.app:focus {
+    background-color: alpha (#000, 0.20);
+}
+ 
+.search-item {
+    border-width: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.search-item:hover,
+.search-item:focus {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+    text-shadow: 0 1px 1px alpha (#000, 0.25);
+    icon-shadow: 0 1px 1px alpha (#000, 0.25);
+}
+ 
+.search-entry-large,
+.search-entry-large:focus {
+        border: none;
+        font: open sans light 18;
+        padding: 8px;
+        background-image: none;
+        background-color: transparent;
+        box-shadow: none;
+        border-radius: 0;
+}
+ 
+.search-category-header {
+        color: #808080;
+}
+
+
+
+/********
+* Budgie/desktop *
+********/
+
+
+.budgie-panel {
+    background-color: alpha(white, 0.0);
+background-image: url("assets/background-noise-toolbar2.png"),
+                     -gtk-gradient (linear,
+                                     left top, left bottom,
+                                     from (alpha ( #fff, 0.4)),
+                                     to   (alpha ( #fff, 0.05)));
+    border: 1px solid shade (#333, 0.4);
+    border-width: 1px  0 0 0;
+    box-shadow: inset 0 1px alpha (#fff, 0.35);
+}
+
+
+.budgie-panel GtkLabel, 
+.budgie-panel GtkImage{
+color: white;
+    text-shadow: 0 1px alpha (#000, 0.4);
+    icon-shadow: 0 1px alpha (#000, 0.4);
+}
+
+.budgie-panel .message-area {
+    background-color: transparent;
+    border-radius: 6px;
+
+
+}
+.budgie-panel .launcher {
+    border: 2px solid alpha(white, 0.0);
+    background-image: none;
+    transition: 100ms ease-in;
+}
+.budgie-panel .launcher:hover {
+    border: 2px solid alpha(white, 0.0);
+    border-bottom: 1px solid alpha(#4fb3ff, 0.3);
+background-image: 
+                     -gtk-gradient (linear,
+                                     left top, left bottom,
+                                     from (alpha ( #4fb3ff, 0.01)),
+                                     to   (alpha ( #4fb3ff, 0.3)));
+  
+
+}
+.budgie-panel .launcher:active {
+    border: 2px solid alpha(white, 0.0);
+    border-bottom: 1px solid alpha (white, 0.4);
+
+
+}
+.top .launcher:hover {
+    border: 2px solid alpha(white, 0.0);
+    border-top: 2px solid alpha(white, 0.5); 
+}
+.top .launcher:active {
+    border: 2px solid alpha(white, 0.0);
+    border-top: 2px solid white;
+}
+.panel-applet {
+    background-image: none;
+
+    border-color: alpha(white, 0.12);
+    border-radius: 6px;
+    border: solid alpha(white, 0.1) 1px;
+
+}
+.budgie-panel .menu-icon,
+.budgie-panel .menu-icon:active,
+.budgie-panel .menu-icon:hover {
+    background-color: none;
+
+}
+
+BudgiePopover {
+    border-radius: 6px;
+    border: 1px solid shade (#333, 0.4);
+}
+
+
+PantheonTerminalPantheonTerminalWindow.background {
+   background-color: transparent;
+ }
+
+/********
+* Geary *
+********/
+
+ConversationListView {
+    -GtkWidget-focus-line-width: 1px;
+    -GtkTreeView-grid-line-width: 0;
+}
+ 
+ConversationListView.view.cell {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: alpha (#000, 0.2);
+}
+ 
+ConversationListView.view.cell:selected {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: shade (@theme_selected_bg_color, 0.8);
+}
+
+
+/**************
+ * GNOME Crap *
+ *************/
+
+ApDocView, /* Abiword */
+EogScrollView, /* Eog */
+CheeseThumbView /* Cheese */
+{
+    -EogScrollView-shadow-type: none;
+}
+
+/**********
+ * Birdie *
+ *********/
+
+BirdieWidgetsTweetList * {
+    background-image: none;
+    background-color: transparent;
+}
+
+/********
+ * Gala *
+ *******/
+
+.gala-workspaces-background {
+    border-top: 1px solid alpha (#fff, 0.15);
+    background-color: #2d2d2d;
+    
+    background-image: linear-gradient(to bottom,
+                                  alpha (#000, 0.30),
+                                  transparent 6px
+                                  );
+}
+
+.gala-workspace-selected {
+
+    border: 1px solid alpha (#000, 0.15);
+    border-radius: 4px;
+    
+    box-shadow: inset 0 0 0 1px alpha (#fff, 0.05),
+            inset 0 1px 0 0 alpha (#fff, 0.45),
+            inset 0 -1px 0 0 alpha (#fff, 0.15),
+            0 1px 0 1px alpha (#000, 0.15);
+            
+    background-image: linear-gradient(to bottom,
+                                  shade (@selected_bg_color, 1.25),
+                                  shade (@selected_bg_color, 0.98)
+                                  );
+}
+
+/*********
+ * Noise *
+ ********/
+
+.album-list-view,
+.album-list-view GtkLabel,
+.album-list-view:backdrop,
+.album-list-view GtkLabel:backdrop,
+.album-list-view GraniteWidgetsRating {
+    background-color: #262626;
+    color: #fff;
+
+    border-radius: 8;
+    border-color: #000;
+}
+
+.album-list-view GtkTreeView,
+.album-list-view GtkTreeView:backdrop {
+    background-color: #262626;
+    background-image: none;
+     color: #fff;
+    -GtkTreeView-vertical-separator: 3;
+    -GtkTreeView-grid-line-width: 0;
+}
+
+.album-list-view GtkTreeView row:nth-child(even),
+.album-list-view GtkTreeView row:nth-child(even):backdrop {
+    background-image: none;
+    background-color: #313131;
+    border: 1px solid #373737;
+}
+
+
+.album-list-view GtkTreeView row:nth-child(odd),
+.album-list-view GtkTreeView row:nth-child(odd):backdrop {
+    background-image: none;
+    background-color: #262626;
+    border-width: 0px;
+    border-style: none;
+}
+
+.album-list-view GtkTreeView row:selected {
+    background-color: @selected_bg_color;
+    color: @selected_fg_color;
+}
+
+/**********
+ * Notify *
+ *********/
+
+.notify {
+    /*-notify-shadow: 0px 2px 18px alpha (#000, 0.60);*/
+
+    border-radius: 5px;
+    border: 1px solid alpha (#000, 0.30);
+
+    background-color: alpha (#f8f8f8, 0.95);
+}
+
+.notify .low {
+}
+
+.notify .critical {
+}
+
+/*********
+ * Panel *
+ 
+ ********/
+
+.panel {
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 0 1px 2px alpha (#000, 0.6);
+    icon-shadow: 0 1px 2px alpha (#000, 0.6);
+}
+
+.panel .menu .menuitem {
+    font-weight: normal;
+}
+
+.panel-shadow {
+    background-image: none;
+    background-color: transparent;
+}
+
+.panel-app-button {
+    -GtkMenuItem-horizontal-padding: 6px;
+}
+
+.composited-indicator {
+    background-color: transparent;
+    color: #fff;
+    padding: 0 2px;
+}
+
+.composited-indicator.menuitem:active,
+.composited-indicator.menuitem:prelight {
+    border-style: none;
+    background-image: none;
+    box-shadow: none;
+}
+
+/************
+ * Terminal *
+ ***********/
+
+TerminalScreen {
+    -TerminalScreen-background-darkness: 0.85;
+
+    background-color: #000;
+
+    color: #fff;
+}
+
+/*********
+ * Tweet *
+ ********/
+
+.tweet {
+    padding: 0;
+    box-shadow: none;
+}

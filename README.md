@@ -1,6 +1,8 @@
 Rainier GTK Theme
 ===========
 
+Derived from the Xenite GTK theme
+
 A nice, simple theme specially modified for Trenta OS.
 
 To install:

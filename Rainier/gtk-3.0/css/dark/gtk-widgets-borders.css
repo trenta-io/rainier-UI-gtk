@@ -1,0 +1,365 @@
+/* Borders */
+
+.header-bar .button.flat,
+.header-bar .button.flat:backdrop,
+.header-bar .button.flat:active,
+.header-bar .button.flat:insensitive:backdrop,
+.header-bar .button.flat:hover,
+.header-bar .button.flat:active:hover,
+.titlebar .titlebutton:backdrop:hover,
+.titlebar .titlebutton:backdrop,
+.button.app,
+.action-bar .button,
+.action-bar .button:backdrop,
+.header-bar .linked .button,
+
+.header-bar .button.raised.linked,
+.header-bar .raised.linked .button,
+
+
+.header-bar .button:insensitive,
+.header-bar .button:insensitive:hover,
+.header-bar .button:active,
+
+.header-bar .button:active:hover,
+.header-bar .button,
+
+.header-bar .button:hover,
+.search-bar .entry:focus:hover,
+.search-bar .entry:focus,
+.search-bar .entry:active:hover:backdrop,
+.search-bar .entry:hover:backdrop,
+.search-bar .entry:active:backdrop,
+.search-bar .entry:backdrop,
+.search-bar .entry:active:hover,
+.search-bar .entry:hover,
+.search-bar .entry:active,
+.search-bar .entry,
+ .button.flat:insensitive:backdrop,
+ .button.flat:insensitive,
+ .button.flat:active:insensitive,
+ .button.flat:hover:insensitive,
+ .button.flat:backdrop,
+ .button.flat:active:backdrop, 
+ .button.flat:hover:backdrop,
+ .button.flat,
+ .button.flat:active, 
+ .button.flat:hover,
+.toolbar .entry:focus:hover,
+.toolbar .entry:focus,
+.toolbar .entry:active:hover:backdrop,
+.toolbar .entry:hover:backdrop,
+.toolbar .entry:active:backdrop,
+.toolbar .entry:backdrop,
+.toolbar .entry:active:hover,
+.toolbar .entry:hover,
+.toolbar .entry:active,
+.toolbar .entry,
+.header-bar .entry:focus:hover,
+.header-bar .entry:focus,
+.header-bar .entry:active:hover:backdrop,
+.header-bar .entry:hover:backdrop,
+.header-bar .entry:active:backdrop,
+.header-bar .entry:backdrop,
+.header-bar .entry:active:hover,
+.header-bar .entry:hover,
+.header-bar .entry:active,
+.header-bar .entry
+
+
+ {
+    border-image: none;
+    border-radius: 4px;
+
+    border-style: none;
+    border-color: none;
+
+}
+
+
+
+/* generic element borders */
+.entry,
+GtkComboBox.combobox-entry .entry,
+GtkComboBox.combobox-entry .button,
+.button:active,
+.button:insensitive,
+.button.default:insensitive,
+.spinbutton.vertical .button:active,
+.spinbutton.vertical .button:insensitive,
+.inline-toolbar.toolbar.vertical .button:active,
+.inline-toolbar.toolbar.vertical .button:insensitive,
+.inline-toolbar.toolbar.vertical .button.default:insensitive,
+.trough.highlight,
+.titlebar .titlebutton:hover, 
+.titlebar .titlebutton:active {
+    border-image: -gtk-scaled(url("borders/generic-border-dark.png"),url("borders/generic-border-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 3px;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.trough row {
+    border-image: -gtk-scaled (url("borders/nohl-generic-border-dark.png"),url("borders/nohl-generic-border-dark@2.png")) 3 / 3px stretch;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* focused element borders */
+.entry:focus,
+GtkComboBox.combobox-entry .entry:focus,
+.button.default:active,
+.inline-toolbar.toolbar.vertical .button.default:active
+ { 
+    border-image: -gtk-scaled(url("borders/generic-border-focused-dark.png"),url("borders/generic-border-focused-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 3px;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* generic button borders */
+.button,
+.spinbutton.vertical .button,
+.inline-toolbar.toolbar.vertical .button {
+    border-image: -gtk-scaled(url("borders/button-border-dark.png"),url("borders/button-border-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 3px;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* focused button borders */
+.button.default { 
+    border-image: -gtk-scaled(url("borders/button-border-default-dark.png"),url("borders/button-border-default-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 3px;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* tooltip elements borders */
+.tooltip .entry,
+.tooltip .button {
+    border-image: -gtk-scaled (url("borders/tooltip-generic-border-dark.svg"),url("borders/tooltip-generic-border-dark@2.png")) 3 / 3px stretch;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* tooltip focused elements borders */
+.tooltip .entry:focus {
+    border-image: -gtk-scaled (url("borders/tooltip-generic-border-focused-dark.svg"),url("borders/tooltip-generic-border-focused-dark@2.png")) 3 / 3px stretch;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* primary toolbar - generic element borders */
+.primary-toolbar .entry,
+.primary-toolbar GtkComboBox.combobox-entry .entry,
+.primary-toolbar GtkComboBox.combobox-entry .button,
+.primary-toolbar .button:active,
+.primary-toolbar .button.raised:active,
+.primary-toolbar .raised .button:active,
+.primary-toolbar .button.raised:insensitive,
+.primary-toolbar .raised .button:insensitive,
+.primary-toolbar .button.raised.default:insensitive,
+.primary-toolbar .raised .button.default:insensitive,
+.inline-toolbar.toolbar .button.default:insensitive,
+.inline-toolbar.toolbar .button:active,
+.inline-toolbar.toolbar .button:insensitive,
+.primary-toolbar GtkSwitch.trough,
+.primary-toolbar GtkSwitch.trough:insensitive,
+.primary-toolbar GtkSwitch.trough:active:insensitive,
+.primary-toolbar GtkComboBox .button:active,
+.primary-toolbar GtkComboBox .button:insensitive {
+    border-image: -gtk-scaled(url("borders/primary-toolbar-generic-border-dark.png"),url("borders/primary-toolbar-generic-border-dark@2.png")) 4 / 4px stretch;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* primary toolbar - focused element borders */
+.primary-toolbar .entry:focus,
+.primary-toolbar GtkComboBox.combobox-entry .entry:focus,
+.primary-toolbar .button.raised.default:active,
+.primary-toolbar .raised .button.default:active,
+.inline-toolbar.toolbar .button.default:active {
+    border-image: -gtk-scaled(url("borders/primary-toolbar-generic-border-focused-dark.png"),url("borders/primary-toolbar-generic-border-focused-dark@2.png")) 4 / 4px stretch;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* primary toolbar - generic button borders */
+.primary-toolbar .button.raised,
+.primary-toolbar .raised .button,
+.inline-toolbar.toolbar .button,
+.primary-toolbar GtkComboBox .button {
+    border-image: -gtk-scaled(url("borders/primary-toolbar-button-border-dark.png"),url("borders/primary-toolbar-button-border-dark@2.png")) 4 / 4px stretch;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* primary toolbar - focused button borders */
+.primary-toolbar .button.raised.default,
+.primary-toolbar .raised .button.default,
+.inline-toolbar.toolbar .button.default {
+    border-image: -gtk-scaled(url("borders/primary-toolbar-button-border-default-dark.png"),url("borders/primary-toolbar-button-border-default-dark@2.png")) 4 / 4px stretch;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+/* column-headers borders */
+column-header.button,
+column-header .button,
+column-header.button:active,
+column-header .button:active,
+column-header.button:active:hover,
+column-header .button:active:hover,
+column-header.button:backdrop,
+column-header .button:backdrop,
+column-header.button:insensitive,
+column-header .button:insensitive,
+column-header.button:last-child:backdrop,
+column-header:last-child .button:backdrop {
+    border-width: 0 1px 1px 0;
+    border-radius: 0;
+    border-style: solid;
+    border-color: transparent;
+}
+
+column-header.button,
+column-header .button,
+column-header.button:active,
+column-header .button:active,
+column-header.button:active:hover,
+column-header .button:active:hover,
+column-header .button.dnd {
+    border-image: linear-gradient(to top,
+                                  @borders,
+                                  @theme_base_color
+                                  ) 0 1 1 0;
+}
+
+column-header.button:backdrop,
+column-header .button:backdrop,
+column-header.button:last-child:backdrop,
+column-header:last-child .button:backdrop {
+    border-image: none;
+}
+
+column-header.button:insensitive,
+column-header .button:insensitive {
+    border-image: linear-gradient(to top,
+                                  @borders,
+                                  @insensitive_bg_color
+                                  ) 0 1 1 0;
+}
+
+column-header.button:last-child,
+column-header:last-child .button,
+column-header.button:last-child:active,
+column-header:last-child .button:active,
+column-header.button:last-child:active:hover,
+column-header:last-child .button:active:hover,
+column-header.button:last-child:backdrop,
+column-header:last-child .button:backdrop {
+    border-right-width: 0;
+}
+
+
+/* unfocused window: generic element borders */
+.selection-mode.toolbar .suggested-action.button:backdrop, 
+.selection-mode.toolbar GtkToolButton.suggested-action .button:backdrop,
+.button:backdrop,
+.header-bar .button:active:backdrop:hover,
+.header-bar .button:backdrop:active,
+.header-bar .button:active:backdrop,
+.header-bar .button:backdrop,
+.header-bar .button:backdrop:insensitive,
+.header-bar .button:backdrop:hover,
+.header-bar .button:insensitive:backdrop,
+.spinbutton.vertical .button:backdrop,
+GtkComboBox.combobox-entry .entry:backdrop,
+GtkComboBox.combobox-entry .button:backdrop,
+.entry:backdrop,
+.inline-toolbar.toolbar.vertical .button:backdrop,
+.inline-toolbar.toolbar.vertical .button:backdrop:insensitive,
+.inline-toolbar.toolbar.vertical .button:backdrop:active,
+.suggested-action.button:backdrop, 
+.toolbar .suggested-action.button:backdrop,
+.destructive-action.button:backdrop {
+    border-image: -gtk-scaled (url("borders/generic-border-backdrop-dark.png"),url("borders/generic-border-backdrop-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 3px;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.trough row:backdrop {
+    border-image: -gtk-scaled (url("borders/nohl-generic-border-backdrop-dark.png"),url("borders/nohl-generic-border-backdrop-dark@2.png")) 3 / 3px stretch;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* unfocused window: primary toolbar generic element borders */
+.primary-toolbar .button:active:backdrop,
+.primary-toolbar .button.raised:backdrop,
+.primary-toolbar .raised .button:backdrop,
+.primary-toolbar GtkComboBox.combobox-entry .entry:backdrop,
+.primary-toolbar GtkComboBox.combobox-entry .button:backdrop,
+.primary-toolbar GtkComboBox .button:backdrop,
+.primary-toolbar .entry:backdrop,
+.primary-toolbar GtkSwitch.trough:backdrop,
+.inline-toolbar.toolbar .button:backdrop,
+.inline-toolbar.toolbar .button:backdrop:insensitive,
+.inline-toolbar.toolbar .button:backdrop:active {
+    border-image: -gtk-scaled (url("borders/primary-toolbar-generic-border-backdrop-dark.png"),url("borders/primary-toolbar-generic-border-backdrop-dark@2.png")) 4 / 4px stretch;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* pushed colored buttons borders */
+.selection-mode.toolbar .suggested-action.button,
+.selection-mode.toolbar GtkToolButton.suggested-action .button {
+    border-image: -gtk-scaled (url("borders/generic-border-transparent-dark.png"),url("borders/generic-border-transparent-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 4px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: transparent;
+
+}
+
+/* suggested action buttons borders */
+.suggested-action.button,
+.suggested-action.button:active {
+    border-image: -gtk-scaled(url("borders/button-border-suggested-dark.png"),url("borders/button-border-suggested-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 3px;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/* destructive action buttons borders */
+.destructive-action.button,
+.destructive-action.button:active {
+    border-image: -gtk-scaled(url("borders/button-border-destructive-dark.png"),url("borders/button-border-destructive-dark@2.png")) 3 3 4 3 / 3px 3px 4px 3px stretch;
+    border-radius: 3px;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: transparent;
+}
