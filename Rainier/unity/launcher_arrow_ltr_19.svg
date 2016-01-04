@@ -13,7 +13,7 @@
    height="19"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    inkscape:export-filename="test.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -34,20 +34,20 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#585859"
+     pagecolor="#828282"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.68627451"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="4.9922517"
-     inkscape:cy="11.771899"
+     inkscape:zoom="20.962996"
+     inkscape:cx="-0.75898517"
+     inkscape:cy="9.0594719"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
-     inkscape:window-x="65"
+     showgrid="true"
+     inkscape:window-width="1275"
+     inkscape:window-height="630"
+     inkscape:window-x="49"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -80,7 +80,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -89,15 +89,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1033.3622)">
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3789"
-       sodipodi:cx="-5.5"
-       sodipodi:cy="9"
-       sodipodi:rx="2.5"
-       sodipodi:ry="2"
-       d="m -3,9 a 2.5,2 0 1 1 -5,0 2.5,2 0 1 1 5,0 z"
-       transform="matrix(0.8,0,0,1,8.4,1034.3622)" />
+    <rect
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.90196079"
+       id="rect3338"
+       width="2"
+       height="17"
+       x="2"
+       y="1034.3622"
+       ry="1.7382812e-05" />
   </g>
 </svg>

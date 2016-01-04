@@ -1,5 +1,0 @@
-/* ISSUE: #31 */
-DirectWindow.csd.background GtkToolbar.toolbar.bottom-toolbar {
-  border: none;
-  box-shadow: none;
-}

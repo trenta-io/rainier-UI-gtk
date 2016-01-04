@@ -13,7 +13,7 @@
    height="19"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    inkscape:export-filename="test.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -34,17 +34,17 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#202020"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.54117647"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="11.481229"
-     inkscape:cy="7.7158181"
+     inkscape:zoom="20.962996"
+     inkscape:cx="-4.2413119"
+     inkscape:cy="9.0594719"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:window-width="1301"
      inkscape:window-height="744"
      inkscape:window-x="65"
@@ -89,15 +89,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1033.3622)">
-    <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       id="path3789"
-       sodipodi:cx="-5.5"
-       sodipodi:cy="9"
-       sodipodi:rx="2.5"
-       sodipodi:ry="2"
-       d="m -3,9 a 2.5,2 0 1 1 -5,0 2.5,2 0 1 1 5,0 z"
-       transform="matrix(0.8,0,0,1,10.4,1034.3622)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:0.90196079;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3338"
+       width="2"
+       height="17"
+       x="6"
+       y="1034.3622"
+       ry="1.7382812e-05" />
   </g>
 </svg>
