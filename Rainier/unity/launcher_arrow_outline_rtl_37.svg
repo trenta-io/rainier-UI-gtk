@@ -13,7 +13,7 @@
    height="37"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    inkscape:export-filename="test.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -22,38 +22,34 @@
      id="defs4">
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath4219">
+       id="clipPath4069">
       <rect
-         y="1015.3622"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.12000002;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+         id="rect4071"
+         width="10"
+         height="19"
          x="20"
-         height="37"
-         width="20"
-         id="rect4221"
-         style="opacity:0.12000002;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+         y="1033.3622" />
     </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#5c48bb"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="14.551915"
-     inkscape:cx="4.144544"
-     inkscape:cy="10.100865"
+     inkscape:zoom="22.627417"
+     inkscape:cx="8.2254385"
+     inkscape:cy="5.6970486"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1301"
-     inkscape:window-height="744"
+     inkscape:window-height="650"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     showguides="false"
-     inkscape:guide-bbox="true"
-     inkscape:snap-page="true"
-     inkscape:snap-grids="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -65,7 +61,9 @@
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
-     inkscape:snap-center="true">
+     inkscape:snap-text-baseline="false"
+     inkscape:snap-center="true"
+     inkscape:snap-page="true">
     <inkscape:grid
        type="xygrid"
        id="grid4740"
@@ -73,10 +71,6 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="8,19"
-       id="guide3004" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -86,7 +80,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -95,10 +89,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1015.3622)">
-    <path
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       d="M 12 15 C 9.790861 15 8 16.790861 8 19 C 8 21.209139 9.790861 23 12 23 C 14.209139 23 16 21.209139 16 19 C 16 16.790861 14.209139 15 12 15 z M 12 17 C 13.104569 17 14 17.89543 14 19 C 14 20.10457 13.104569 21 12 21 C 10.895431 21 10 20.10457 10 19 C 10 17.89543 10.895431 17 12 17 z "
-       transform="translate(0,1015.3622)"
-       id="path3019" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.4"
+       id="rect3338"
+       width="4"
+       height="33.000019"
+       x="12"
+       y="1017.3622"
+       ry="1.7382812e-05"
+       rx="1.7382812e-05" />
   </g>
 </svg>

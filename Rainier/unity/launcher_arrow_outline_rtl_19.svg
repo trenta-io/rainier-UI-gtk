@@ -13,7 +13,7 @@
    height="19"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    inkscape:export-filename="test.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -34,19 +34,19 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#5c48bb"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="37.947076"
-     inkscape:cx="3.6432317"
-     inkscape:cy="9.8268438"
+     inkscape:zoom="20.962996"
+     inkscape:cx="-2.1423752"
+     inkscape:cy="8.8448079"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="1301"
-     inkscape:window-height="744"
+     inkscape:window-height="650"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -80,7 +80,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -89,10 +89,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1033.3622)">
-    <path
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:12;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new"
-       d="M 6 8 C 4.8954305 8 4 8.8954305 4 10 C 4 11.104569 4.8954305 12 6 12 C 7.1045695 12 8 11.104569 8 10 C 8 8.8954305 7.1045695 8 6 8 z M 6 9 C 6.5522847 9 7 9.4477153 7 10 C 7 10.552285 6.5522847 11 6 11 C 5.4477153 11 5 10.552285 5 10 C 5 9.4477153 5.4477153 9 6 9 z "
-       transform="translate(0,1033.3622)"
-       id="path3789" />
+    <rect
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3338"
+       width="2"
+       height="17"
+       x="6"
+       y="1034.3622"
+       ry="1.7382812e-05"
+       rx="1.7382812e-05" />
   </g>
 </svg>

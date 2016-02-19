@@ -1,11 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Rainier
-Comment=A modern flat theme
+Name=Arc
+Comment=A flat theme with transparent elements
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Rainier
-MetacityTheme=Rainier
-ButtonLayout=close,minimize,maximize:
-IconTheme=Rainier
+GtkTheme=Arc
+MetacityTheme=Arc
+IconTheme=gnome
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close
