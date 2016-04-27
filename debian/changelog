@@ -1,3 +1,9 @@
+rainier-gtk-theme (1.4.1) xenial; urgency=medium
+
+  * Added Plank theme to GTK package
+
+ -- Kenneth Stier (Millhousen Tech) <kenny.stier19@gmail.com>  Wed, 27 Apr 2016 19:57:00 -0400
+
 rainier-gtk-theme (1.4) xenial; urgency=medium
 
   * Forked Arc and made changes
