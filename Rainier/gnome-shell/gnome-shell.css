@@ -17,7 +17,7 @@
  * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
  */
 stage {
-  font-family: Futura Bk bt, Cantarell, Sans-Serif;
+  font-family: Roboto, Noto Sans, Helvetica, Sans-Serif;
   font-size: 9pt;
   color: #5c616c; }
 
@@ -66,36 +66,10 @@ stage {
     background-color: rgba(251, 251, 252, 0.55);
     box-shadow: inset 0 1px rgba(251, 251, 252, 0.05); }
 
-.modal-dialog-button-box .button {
-  text-shadow: 0 1px rgba(255, 255, 255, 0);
-  color: #BAC3CF;
-  border: 1px solid rgba(26, 28, 34, 0.35);
-  background-color: rgba(102, 109, 132, 0.35);
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.05); }
-  .modal-dialog-button-box .button:hover {
-    text-shadow: 0 1px rgba(255, 255, 255, 0);
-    color: #BAC3CF;
-    border: 1px solid rgba(26, 28, 34, 0.35);
-    background-color: rgba(119, 127, 151, 0.45);
-    box-shadow: inset 0 1px rgba(0, 0, 0, 0.05); }
-  .modal-dialog-button-box .button:focus {
-    color: #5294E2; }
-  .modal-dialog-button-box .button:active {
-    text-shadow: 0 1px rgba(255, 255, 255, 0);
-    color: #ffffff;
-    border: 1px solid rgba(26, 28, 34, 0.35);
-    background-color: #5294E2;
-    box-shadow: inset 0 1px rgba(82, 148, 226, 0.05); }
-  .modal-dialog-button-box .button:insensitive {
-    text-shadow: 0 1px rgba(255, 255, 255, 0);
-    color: #5d626e;
-    border: 1px solid rgba(26, 28, 34, 0.35);
-    background-color: rgba(102, 109, 132, 0.2);
-    box-shadow: inset 0 1px rgba(0, 0, 0, 0.05); }
-
 StEntry {
   padding: 7px;
   caret-size: 1px;
+  caret-color: #5c616c;
   selection-background-color: #5294E2;
   selected-color: #ffffff;
   transition-duration: 300ms;
@@ -203,19 +177,35 @@ StScrollBar {
   border: none;
   border-image: url("light-assets/misc/modal.svg") 9 9 9 67;
   padding: 0 5px 6px 5px; }
-  .modal-dialog > StBoxLayout:first-child {
+  .modal-dialog .modal-dialog-content-box {
     padding: 20px 10px 10px 10px; }
-  .modal-dialog-button-box {
-    spacing: 0;
-    margin: 0px;
-    padding: 14px 10px;
-    background: none;
-    border: none;
-    border-image: url("light-assets/misc/button-box.svg") 9 9 9 9; }
-    .modal-dialog-button-box .button {
-      padding-top: 0;
-      padding-bottom: 0;
-      height: 30px; }
+  .modal-dialog-linked-button {
+    height: 39px;
+    padding: 0;
+    box-shadow: inset 0 0 black;
+    border-top-width: 0px;
+    border-bottom-width: 0;
+    color: #BAC3CF;
+    background-color: rgba(53, 57, 69, 0.95);
+    border-color: rgba(42, 45, 55, 0.95); }
+    .modal-dialog-linked-button:hover {
+      background-color: rgba(64, 69, 83, 0.95); }
+    .modal-dialog-linked-button:focus {
+      color: #5294E2; }
+    .modal-dialog-linked-button:active {
+      color: #ffffff;
+      background-color: #5294E2; }
+    .modal-dialog-linked-button:insensitive {
+      color: rgba(186, 195, 207, 0.5);
+      background-color: rgba(49, 52, 63, 0.95); }
+    .modal-dialog-linked-button:first-child {
+      border-radius: 0px 0px 0px 2px; }
+    .modal-dialog-linked-button:last-child {
+      border-right-width: 0px;
+      border-radius: 0px 0px 2px 0px; }
+    .modal-dialog-linked-button:first-child:last-child {
+      border-right-width: 0px;
+      border-radius: 0px 0px 2px 2px; }
   .modal-dialog .run-dialog-entry {
     width: 21em; }
   .modal-dialog .run-dialog-error-box {
@@ -278,18 +268,15 @@ StScrollBar {
   .end-session-dialog-app-list-item-description {
     color: #686d7a;
     font-size: 8pt; }
-  .end-session-dialog .button:last-child {
+  .end-session-dialog .modal-dialog-linked-button:last-child {
     color: #ffffff;
-    background-color: #F04A50;
-    border-color: #F04A50; }
-    .end-session-dialog .button:last-child:hover {
+    background-color: #F04A50; }
+    .end-session-dialog .modal-dialog-linked-button:last-child:hover {
       color: #ffffff;
-      background-color: #f47479;
-      border-color: #f47479; }
-    .end-session-dialog .button:last-child:active {
+      background-color: #f47479; }
+    .end-session-dialog .modal-dialog-linked-button:last-child:active {
       color: #ffffff;
-      background-color: #ee3239;
-      border-color: #ee3239; }
+      background-color: #ee3239; }
 
 .shell-mount-operation-icon {
   icon-size: 48px; }
@@ -393,6 +380,48 @@ StScrollBar {
   width: 48px;
   height: 48px; }
 
+.audio-device-selection-dialog {
+  spacing: 30px; }
+
+.audio-selection-content {
+  spacing: 20px;
+  padding: 24px; }
+
+.audio-selection-title {
+  font-weight: bold;
+  text-align: center; }
+
+.audio-selection-box {
+  spacing: 20px; }
+
+.audio-selection-device {
+  border: 1px solid #dcdfe3;
+  border-radius: 3px; }
+  .audio-selection-device:active, .audio-selection-device:hover, .audio-selection-device:focus {
+    background-color: #5294E2;
+    border-color: #5294E2; }
+
+.audio-selection-device-box {
+  padding: 20px;
+  spacing: 20px; }
+
+.audio-selection-device-icon {
+  icon-size: 64px; }
+
+.geolocation-dialog {
+  spacing: 30px; }
+  .geolocation-dialog-main-layout {
+    spacing: 12px; }
+  .geolocation-dialog-content {
+    spacing: 20px; }
+  .geolocation-dialog-icon {
+    icon-size: 48px; }
+  .geolocation-dialog-title {
+    font-weight: bold; }
+  .geolocation-dialog-reason {
+    color: #5c616c;
+    font-weight: bold; }
+
 .network-dialog-secret-table {
   spacing-rows: 15px;
   spacing-columns: 1em; }
@@ -402,7 +431,7 @@ StScrollBar {
   spacing-columns: 1em; }
 
 .popup-menu {
-  min-width: 200px;
+  min-width: 15em;
   color: #5c616c;
   border-image: url("light-assets/menu/menu.svg") 9 9 9 9; }
   .popup-menu .popup-sub-menu {
@@ -616,7 +645,7 @@ StScrollBar {
     -natural-hpadding: 10px;
     -minimum-hpadding: 6px;
     font-weight: bold;
-    color: #ffffff;
+    color: #282828;
     transition-duration: 100ms;
     border-bottom-width: 1px;
     border-color: transparent; }
@@ -626,7 +655,7 @@ StScrollBar {
       margin-left: 0px;
       margin-right: 0px; }
     #panel .panel-button:hover {
-      color: #ffffff;
+      color: #282828;
       background-color: rgba(0, 0, 0, 0.17);
       border-bottom-width: 1px;
       border-color: transparent; }
@@ -658,6 +687,8 @@ StScrollBar {
   #panel .panel-status-indicators-box,
   #panel .panel-status-menu-box {
     spacing: 2px; }
+  #panel .power-status.panel-status-indicators-box {
+    spacing: 0; }
   #panel .screencast-indicator {
     color: #FC4138; }
   #panel .clock-display > * > *:last-child {
@@ -688,8 +719,12 @@ StScrollBar {
     background-image: url("common-assets/panel/activities-active.svg"); }
 
 .system-switch-user-submenu-icon {
-  icon-size: 24px;
-  border: 1px solid rgba(92, 97, 108, 0.4); }
+  icon-size: 20px;
+  padding: 0 2px; }
+
+.system-switch-user-submenu-icon.default-icon {
+  icon-size: 16px;
+  padding: 0 4px; }
 
 #appMenu {
   spinner-image: url("common-assets/misc/process-working.svg");
@@ -699,7 +734,7 @@ StScrollBar {
     color: transparent; }
 
 .aggregate-menu {
-  width: 360px; }
+  min-width: 23.5em; }
   .aggregate-menu .popup-menu-icon {
     padding: 0 4px; }
 
@@ -882,8 +917,19 @@ StScrollBar {
   color: rgba(92, 97, 108, 0.3);
   opacity: 1; }
 
+.calendar-week-number {
+  font-size: 70%;
+  font-weight: bold;
+  width: 2.3em;
+  height: 1.8em;
+  border-radius: 2px;
+  padding: 0.5em 0 0;
+  margin: 6px;
+  background-color: rgba(92, 97, 108, 0.3);
+  color: #F5F6F7; }
+
 .message-list {
-  width: 420px; }
+  width: 31.5em; }
   .message-list-sections {
     spacing: 1.5em; }
   .message-list-section, .message-list-section-list {
@@ -925,16 +971,44 @@ StScrollBar {
     .message-icon-bin:rtl {
       padding: 8px 8px 8px 0px; }
     .message-icon-bin > StIcon {
-      icon-size: 48px; }
+      icon-size: 32px; }
   .message-secondary-bin {
     color: rgba(92, 97, 108, 0.4); }
+    .message-secondary-bin:ltr {
+      padding-left: 8px; }
+    .message-secondary-bin:rtl {
+      padding-right: 8px; }
   .message-secondary-bin > StIcon {
     icon-size: 16px; }
   .message-title {
     font-weight: bold;
+    font-size: 1em;
     padding: 2px 0 2px 0; }
   .message-content {
-    padding: 8px; }
+    padding: 8px;
+    font-size: 1em; }
+
+.message-media-control {
+  padding: 6px;
+  color: rgba(92, 97, 108, 0.55); }
+  .message-media-control:last-child:ltr {
+    padding-right: 18px; }
+  .message-media-control:last-child:rtl {
+    padding-left: 18px; }
+  .message-media-control:hover {
+    color: #5c616c; }
+  .message-media-control:active {
+    color: #5294E2; }
+
+.media-message-cover-icon {
+  icon-size: 32px; }
+  .media-message-cover-icon.fallback {
+    color: rgba(92, 97, 108, 0.55);
+    background-color: #F5F6F7;
+    border-radius: 2px;
+    icon-size: 16px;
+    padding: 8px;
+    border: 1px solid #dcdfe3; }
 
 .ripple-box {
   width: 52px;
@@ -975,7 +1049,8 @@ StScrollBar {
   min-height: 450px;
   min-width: 470px; }
   .nm-dialog-content {
-    spacing: 20px; }
+    spacing: 20px;
+    padding: 10px; }
   .nm-dialog-header-hbox {
     spacing: 10px; }
   .nm-dialog-airplane-box {
@@ -1107,27 +1182,18 @@ StScrollBar {
 #dash {
   font-size: 1em;
   color: #BAC3CF;
-  background-color: transparent;
-  border: none;
+  background-color: rgba(53, 57, 69, 0.95);
+  border-color: rgba(0, 0, 0, 0.4);
   padding: 6px 1px 6px 0px;
-  border-image: url("common-assets/dash/dash-left.svg") 3 3 3 3; }
-  .extended.left #dash {
-    border-image: url("common-assets/dash/dash-extended-left.svg") 3 3 3 3; }
+  border-radius: 0 3px 3px 0; }
+  #dash:rtl {
+    border-radius: 3px 0 0 3px; }
   .right #dash, #dash:rtl {
-    padding: 6px 0px 6px 1px;
-    border-image: url("common-assets/dash/dash-right.svg") 3 3 3 3; }
-  .extended.right #dash {
-    border-image: url("common-assets/dash/dash-extended-right.svg") 3 3 3 3; }
+    padding: 6px 0px 6px 1px; }
   .bottom #dash {
-    padding: 1px 6px 0px 6px;
-    border-image: url("common-assets/dash/dash-bottom.svg") 3 3 3 3; }
-  .extended.bottom #dash {
-    border-image: url("common-assets/dash/dash-extended-bottom.svg") 3 3 3 3; }
+    padding: 1px 6px 0px 6px; }
   .top #dash {
-    padding: 0px 6px 1px 6px;
-    border-image: url("common-assets/dash/dash-top.svg") 3 3 3 3; }
-  .extended.top #dash {
-    border-image: url("common-assets/dash/dash-extended-top.svg") 3 3 3 3; }
+    padding: 0px 6px 1px 6px; }
   #dash .placeholder {
     background-image: url("common-assets/dash/dash-placeholder.svg");
     background-size: contain;
@@ -1180,6 +1246,23 @@ StScrollBar {
   height: 2px;
   margin-bottom: 6px;
   background-color: #5294E2; }
+
+#dashtodockContainer .app-well-app-running-dot {
+  background: none;
+  width: 28px;
+  height: 4px; }
+
+#dashtodockContainer .running1 .app-well-app-running-dot {
+  background-image: url("common-assets/dash/running1.svg"); }
+
+#dashtodockContainer .running2 .app-well-app-running-dot {
+  background-image: url("common-assets/dash/running2.svg"); }
+
+#dashtodockContainer .running3 .app-well-app-running-dot {
+  background-image: url("common-assets/dash/running3.svg"); }
+
+#dashtodockContainer .running4 .app-well-app-running-dot {
+  background-image: url("common-assets/dash/running4.svg"); }
 
 .show-apps .overview-icon {
   padding: 11px;
@@ -1854,6 +1937,7 @@ StScrollBar {
     spacing: 4px; }
 
 .lg-dialog StEntry {
+  caret-color: #ffffff;
   selection-background-color: #5294E2;
   selected-color: #ffffff;
   color: #BAC3CF;
@@ -1864,7 +1948,9 @@ StScrollBar {
     color: #ffffff;
     background-color: #5294E2;
     border: 1px solid rgba(26, 28, 34, 0.35);
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); }
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    selection-background-color: #ffffff;
+    selected-color: #5294E2; }
 
 .lg-dialog .shell-link {
   color: #2679db; }
