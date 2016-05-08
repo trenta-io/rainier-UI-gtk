@@ -1,3 +1,9 @@
+rainier-gtk-theme (1.4.2) xenial; urgency=medium
+
+  * Added new Gnome OSD Background Image
+
+ -- Kenneth Stier (Millhousen Tech) <kenny.stier19@gmail.com>  Sat, 07 May 2016 21:54:00 -0400
+
 rainier-gtk-theme (1.4.1) xenial; urgency=medium
 
   * Added Plank theme to GTK package
