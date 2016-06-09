@@ -536,6 +536,7 @@ StScrollBar {
   background: none;
   border: none;
   border-image: url("common-assets/misc/bg.svg") 9 9 9 9;
+  color: black;
   border-radius: 3px;
   padding: 20px; }
   .switcher-list-item-container {
@@ -1181,8 +1182,8 @@ StScrollBar {
 
 #dash {
   font-size: 1em;
-  color: #BAC3CF;
-  background-color: rgba(53, 57, 69, 0.95);
+  color: #000000;
+  background-color: rgba(254, 254, 254, 0.95);
   border-color: rgba(0, 0, 0, 0.4);
   padding: 6px 1px 6px 0px;
   border-radius: 0 3px 3px 0; }
