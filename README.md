@@ -1,4 +1,4 @@
-Rainier GTK Theme
+Rainier UI GTK Theme
 ===========
 
 Derived from the Arc GTK theme
