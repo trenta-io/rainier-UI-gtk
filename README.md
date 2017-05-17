@@ -1,11 +1,9 @@
-Rainier UI GTK Theme
+![Rainier UI](https://i.imgur.com/lJfpp40.png) Theme
 ===========
 
-Derived from the Arc GTK theme
+Rainier UI Theme is the official GTK Theme of Trenta OS. Derived from the Arc GTK theme, it has been heavily modified to match Trenta OS's modern and sleek design language.
 
-A nice, simple theme specially modified for Trenta OS.
-
-To install:
+## Installation for Ubuntu Gnome
 
     sudo add-apt-repository ppa:trentaos-team/rainier
     sudo apt-get update
