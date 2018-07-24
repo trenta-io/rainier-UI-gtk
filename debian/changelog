@@ -1,3 +1,9 @@
+rainier-gtk-theme (1.5.0) bionic; urgency=medium
+
+  * Rebase on OSX Arc
+
+ -- Kenneth Stier (Trenta.io) <kenny@trenta.io>  Mon, 23 Jul 2018 21:05:00 -0400
+
 rainier-gtk-theme (1.4.4) xenial; urgency=medium
 
   * Theme Tweaks

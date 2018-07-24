@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Rainier
+Comment=A flat theme with transparent elements
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=OSX-Arc-Plus
+MetacityTheme=OSX-Arc-Plus
+IconTheme=gnome
+CursorTheme=DMZ-Black
+ButtonLayout=close,minimize,maximize:menu
