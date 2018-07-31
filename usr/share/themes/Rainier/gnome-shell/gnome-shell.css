@@ -1764,7 +1764,7 @@ border: 1px solid #dcdfe3; }
 .show-apps:checked .show-apps-icon,
 .show-apps:focus .show-apps-icon {
   color: transparent;
-  background-image: url("assets/show-apps-active.svg");
+  background-image: url("assets/show-apps.svg");
   -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.22);
   transition-duration: 0.2s; }
 
