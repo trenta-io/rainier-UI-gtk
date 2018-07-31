@@ -1754,7 +1754,7 @@ border: 1px solid #dcdfe3; }
 
 .show-apps .show-apps-icon {
   border: none;
-  background-image: url("assets/show-apps.png");
+  background-image: url("assets/show-apps.svg");
   background-size: contain;
   color: transparent;
 }
@@ -1763,7 +1763,7 @@ border: 1px solid #dcdfe3; }
 .show-apps:checked .show-apps-icon,
 .show-apps:focus .show-apps-icon {
   color: transparent;
-  background-image: url("assets/show-apps.png");
+  background-image: url("assets/show-apps.svg");
   transition-duration: 0.2s; }
 
 .app-folder-popup {
