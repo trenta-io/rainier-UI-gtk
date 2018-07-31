@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!-- Artist: @KevDoy for Trenta.io -->
-<!-- Rocket Icon by Gregor Cresnar from the Noun Project -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
-	.st1{fill:url(#SVGID_2_);}
-	.st2{fill:#464A4C;}
+	.st1{fill:#464A4C;}
 </style>
 <g id="Circle">
 	
-		<radialGradient id="SVGID_1_" cx="534.9938" cy="1126.0718" r="954.2032" gradientTransform="matrix(1 0 0 -1 0 1022.9291)" gradientUnits="userSpaceOnUse">
+		<radialGradient id="SVGID_1_" cx="534.9938" cy="-559.1426" r="954.2032" gradientTransform="matrix(1 0 0 1 0 455.9999)" gradientUnits="userSpaceOnUse">
 		<stop  offset="0" style="stop-color:#FBFAFA"/>
 		<stop  offset="1" style="stop-color:#D5D5D5"/>
 	</radialGradient>
 	<circle class="st0" cx="512" cy="512" r="447"/>
-	<radialGradient id="SVGID_2_" cx="552" cy="-200" r="1181.6594" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#C4D6DC"/>
-		<stop  offset="1" style="stop-color:#7F8080"/>
-	</radialGradient>
-	<circle class="st1" cx="512" cy="512" r="409"/>
 </g>
-<path class="st2" d="M359.2,485.7l47.4,19.7c-5.3,13.5-9.6,27.4-12.8,41.6l-1.8,8.2l68,68.1l8.2-1.8c14.2-3.1,28.1-7.4,41.6-12.8
+<path class="st1" d="M359.2,485.7l47.4,19.7c-5.3,13.5-9.6,27.4-12.8,41.6l-1.8,8.2l68,68.1l8.2-1.8c14.2-3.1,28.1-7.4,41.6-12.8
 	l19.7,47.4c0.6,1.6,2.4,2.3,4,1.7c0.4-0.2,0.7-0.4,1-0.7l29.7-29.7c9.8-9.8,15-23.3,14.3-37.2l-1.1-19.1
 	c55.1-40.7,110.8-112,125.9-236.4c1.5-11.2-6.3-21.5-17.5-23.1c-1.8-0.3-3.7-0.3-5.5,0c-124.4,15.3-195.7,71-236.4,125.9l-19.1-1
 	c-13.8-0.8-27.3,4.4-37.2,14.1l-29.7,29.7c-1.3,1.1-1.4,3-0.4,4.3C358.2,485.2,358.6,485.5,359.2,485.7z M549.9,413.2
