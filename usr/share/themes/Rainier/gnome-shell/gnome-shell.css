@@ -454,7 +454,7 @@ StScrollBar {
   .audio-selection-device:hover, .audio-selection-device:focus {
     background-color: rgba(236, 239, 241, 0.4); }
   .audio-selection-device:active {
-    background-color: #00BCD4; }
+    background-color: #265db9; }
 
 .audio-selection-device-box {
   padding: 2em;
@@ -557,7 +557,7 @@ StScrollBar {
       color: #263238; }
     .popup-menu StEntry:focus {
       border-color: transparent;
-      box-shadow: inset 0 -2px #00BCD4;
+      box-shadow: inset 0 -2px #265db9;
       color: #263238; }
     .popup-menu StEntry:insensitive {
       color: rgba(38, 50, 56, 0.4);
@@ -714,7 +714,7 @@ StScrollBar {
  *************************/
 .tile-preview {
   background-color: rgba(0, 188, 212, 0.2);
-  border: 1px solid #00BCD4; }
+  border: 1px solid #265db9; }
 
 .tile-preview-left.on-primary {
   border-radius: 0 0 0 0; }
@@ -768,7 +768,7 @@ StScrollBar {
     #panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus {
       -panel-corner-border-color: transparent;
       background-color: rgba(0, 0, 0, 0.01);
-      box-shadow: inset 0 2px 0 #00BCD4; }
+      box-shadow: inset 0 2px 0 #265db9; }
     #panel .panel-corner.lock-screen, #panel .panel-corner.login-screen, #panel .panel-corner.unlock-screen {
       -panel-corner-radius: 0;
       -panel-corner-background-color: transparent;
@@ -833,8 +833,8 @@ StScrollBar {
 }
 
     #panel .panel-button:active, #panel .panel-button:focus, #panel .panel-button:checked, #panel .panel-button:overview {
-      background-color: blue;  /* Trenta */
-       box-shadow: inset 0 2px 0 blue; /* Trenta */
+      background-color: #265db9;  /* Trenta */
+       box-shadow: inset 0 2px 0 #265db9; /* Trenta */
       color: #FFFFFF; }
       #panel .panel-button:active > .system-status-icon, #panel .panel-button:focus > .system-status-icon, #panel .panel-button:checked > .system-status-icon, #panel .panel-button:overview > .system-status-icon {
         icon-shadow: none; }
@@ -1349,7 +1349,7 @@ border: 1px solid #dcdfe3; }
   border-bottom: 1px solid rgba(0, 0, 0, 0.12); }
 
 .nm-dialog-item:selected {
-  background-color: #00BCD4;
+  background-color: #265db9;
   color: #FFFFFF; }
 
 .nm-dialog-icons {
@@ -1411,7 +1411,7 @@ border: 1px solid #dcdfe3; }
   background-color: rgba(236, 239, 241, 0.2);
   font-weight: 500;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32), 0 3px 2px rgba(0, 0, 0, 0.24);
-  selection-background-color: #00BCD4;
+  selection-background-color: #265db9;
   selected-color: #FFFFFF; }
   .search-entry:hover, .search-entry:focus {
     border-top: 1px solid rgba(255, 255, 255, 0.07);
@@ -1714,7 +1714,7 @@ border: 1px solid #dcdfe3; }
 .show-apps:checked .overview-icon,
 .grid-search-result:active .overview-icon,
 .grid-search-result:checked .overview-icon {
-  background-color: #00BCD4;
+  background-color: #265db9;
   color: #ECEFF1;
   box-shadow: 0 0 transparent;
   transition-duration: 0.2s; }
@@ -1925,7 +1925,7 @@ border: 1px solid #dcdfe3; }
   font-weight: 700;
   -shell-counter-overlap-x: 3px;
   -shell-counter-overlap-y: 3px;
-  background-color: #00BCD4;
+  background-color: #265db9;
   color: #FFFFFF;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5); }
 
@@ -2047,7 +2047,7 @@ border: 1px solid #dcdfe3; }
  * Magnifier *
  *************/
 .magnifier-zoom-region {
-  border: 2px solid #00BCD4; }
+  border: 2px solid #265db9; }
   .magnifier-zoom-region.full-screen {
     border-width: 0; }
 
@@ -2199,7 +2199,7 @@ border: 1px solid #dcdfe3; }
   background-color: transparent; }
   .login-dialog StEntry {
     color: #ECEFF1;
-    selection-background-color: #00BCD4;
+    selection-background-color: #265db9;
     selected-color: #FFFFFF;
     background-color: rgba(0, 0, 0, 0.01);
     border-color: transparent;
@@ -2209,7 +2209,7 @@ border: 1px solid #dcdfe3; }
       box-shadow: inset 0 -2px rgba(236, 239, 241, 0.4); }
     .login-dialog StEntry:focus {
       border-color: transparent;
-      box-shadow: inset 0 -2px #00BCD4; }
+      box-shadow: inset 0 -2px #265db9; }
     .login-dialog StEntry:insensitive {
       color: rgba(38, 50, 56, 0.4);
       border-color: transparent;
@@ -2268,7 +2268,7 @@ border: 1px solid #dcdfe3; }
         border-color: transparent;
         border-top: 1px solid rgba(255, 255, 255, 0.07);
         color: #FFFFFF;
-        background-color: #00BCD4;
+        background-color: #265db9;
         box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32), 0 3px 2px rgba(0, 0, 0, 0.24);
         text-shadow: none;
         icon-shadow: none; }
@@ -2330,7 +2330,7 @@ border: 1px solid #dcdfe3; }
     background-color: rgba(236, 239, 241, 0.4);
     color: #ECEFF1; }
   .login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in {
-    border-right: 2px solid #00BCD4; }
+    border-right: 2px solid #265db9; }
 
 .login-dialog-user-list-item {
   border-radius: 2px;
@@ -2494,7 +2494,7 @@ border: 1px solid #dcdfe3; }
       border-bottom-width: 0;
       border-color: transparent;
       background-color: rgba(0, 0, 0, 0.01);
-      box-shadow: inset 0 -2px 0 #00BCD4;
+      box-shadow: inset 0 -2px 0 #265db9;
       color: #FFFFFF;
       text-shadow: none; }
   #LookingGlassDialog StBoxLayout#EvalBox {
@@ -2504,7 +2504,7 @@ border: 1px solid #dcdfe3; }
     spacing: 4px; }
 
 .lg-dialog StEntry {
-  selection-background-color: #00BCD4;
+  selection-background-color: #265db9;
   selected-color: #FFFFFF;
   box-shadow: inset 0 -1px rgba(236, 239, 241, 0.2); }
   .lg-dialog StEntry:hover {
@@ -2512,7 +2512,7 @@ border: 1px solid #dcdfe3; }
     box-shadow: inset 0 -2px rgba(236, 239, 241, 0.2); }
   .lg-dialog StEntry:focus {
     color: #FFFFFF;
-    box-shadow: inset 0 -2px #00BCD4; }
+    box-shadow: inset 0 -2px #265db9; }
 .lg-dialog .shell-link {
   color: #03A9F4; }
   .lg-dialog .shell-link:hover {
@@ -2557,7 +2557,7 @@ border: 1px solid #dcdfe3; }
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32), 0 3px 2px rgba(0, 0, 0, 0.24);
     text-shadow: none;
     icon-shadow: none;
-    background-color: #00BCD4;
+    background-color: #265db9;
     color: #FFFFFF; }
   .lg-obj-inspector-button:insensitive {
     color: rgba(38, 50, 56, 0.3);
