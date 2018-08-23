@@ -604,7 +604,7 @@ StScrollBar {
 /*******
  * OSD *
  *******/
-.osd-window {
+.osd-window { /* Trenta */
   text-align: center;
   font-weight: 700;
   spacing: 1em;
@@ -614,13 +614,13 @@ StScrollBar {
   .osd-window .osd-monitor-label {
     font-size: 29.99pt; }
   .osd-window .level {
-    height: 3px;
-    border-radius: 0;
-    background-color: rgba(38, 50, 56, 0.15);
-    color: #00E676; }
+    height: 5px;
+    border-radius: 30px;
+    background-color: rgba(38, 50, 56, 0.10);
+    color: #ffffff; }
   .osd-window .level-bar {
-    border-radius: 0;
-    background-color: #00E676; }
+    border-radius: 30px;
+    background-color: #ffffff; }
 
 /****************
  * App Switcher *
