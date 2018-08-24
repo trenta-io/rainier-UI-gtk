@@ -641,8 +641,8 @@ StScrollBar {
   border: 2px solid rgba(236, 239, 241, 0.4); }
 
 .switcher-list .item-box:selected {
-  background-color: rgba(77, 182, 172, 0.1);
-  color: #4DB6AC; }
+  background-color: rgba(255, 255, 255, 0.1); /* Trenta */
+  color: #ffffff; } /* Trenta */
 
 .switcher-list .thumbnail-box {
   padding: 2px;
@@ -703,10 +703,10 @@ StScrollBar {
 .resize-popup,
 .switcher-list, .workspace-switcher-container {
   padding: 12px;
-  border-radius: 2px;
+  border-radius: 20px;
   border: none;
   color: #ECEFF1;
-  background-color: rgba(42, 55, 62, 0.9);
+  background-color: rgba(0, 0, 0, 0.75); /* Trenta */
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.54), 0 8px 8px rgba(0, 0, 0, 0.44), 0 4px 4px rgba(0, 0, 0, 0.32); }
 
 /*************************
